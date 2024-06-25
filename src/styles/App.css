@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+.App-header {
+  text-align: center;
+}
+
+#quote-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  text-align: left;
+}
+
+#text {
+  font-size: 1.5rem;
+  transition: color 0.5s ease;
+}
+
+#author {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  transition: color 0.5s ease;
+}
+
+#new-quote {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#tweet-quote {
+  display: inline-block;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
